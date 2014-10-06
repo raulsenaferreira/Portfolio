@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<link href="css/estilo_paralax.css" type="text/css" rel="stylesheet" />
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="css/iehacks.css" />
+<![endif]-->
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/paralax.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+	<div id="conteudo">
+    <div id="fundo"></div>
+    	<div class="pipoca1"></div><div class="pipoca2"></div><div class="pipoca3"></div><div class="pipoca4"></div>
+   	  	<div id="logoProjeto"><img src="imagens/logo_projeto.png" /></div>
+        <div id="menuTopo">
+        	<ul>
+            	<a href="#"><li>A Campanha</li></a>
+                <a href="#"><li>Premiação</li></a>
+                <a href="#"><li>Meu Camarim</li></a>
+                <a href="#"><li>Buscar Camarins</li></a>
+                <a href="#"><li class="last">Ranking</li></a>
+            </ul>
+        </div>
+        <div id="slogan2"><p>Muitos astros já passaram<br/>
+        	pela Calçada da Fama.<br />
+            <font color="gold">O próximo pode ser você.</font></p>
+        </div>
+        <div id="titulo"><p>AS INSCRIÇÕES PARA O PAPEL PRINCIPAL<br/>
+        				DO DESAFIO ASTROS DA SAÚDE 2012<br/>
+                        ESTÃO ABERTAS.</p></div>
+		<div id="subTitulo"><p>Veja como se tornar o grande astro<br/>
+        					desta campanha, com direito<br/>
+                            a <font color="#9a041a">uma viagem de uma semana<br/>
+                            para Hollywood</font>.</p></div>
+        <div id="linhas"></div>
+        <div id="fotos"><div class="quadro1"></div><div class="quadro2"></div></div>
+        <div id="botoes">
+        	<div class="howPart"><a href="#"><img src="imagens/howPart.png" /><p><font color="#9a041a">SAIBA COMO<br/>PARTICIPAR</font></p></a></div>
+            <div class="askDirector"><a href="#"><img src="imagens/askDirector.png" /><p><font color="#9a041a">PERGUNTA<br/>DO DIRETOR<br/>(ENQUETE)</font></p></a></div>
+        </div>
+    	 
+    </div>
+    <!-- script para forçar o z-index no IE 7 -->
+<script type="text/javascript">
+	(function($){
+    	var zIndexNumber = 1000;
+    	$('div').each(function() {
+			$(this).css('zIndex', zIndexNumber);
+			zIndexNumber -= 10;
+		});
+	});
+	</script>
+</div>
+</body>
+</html>

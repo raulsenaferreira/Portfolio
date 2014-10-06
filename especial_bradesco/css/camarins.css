@@ -1,0 +1,298 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'DINBoldRegular';
+    src: url('fontes/dinb000-webfont.eot');
+    src: url('fontes/dinb000-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fontes/dinb000-webfont.woff') format('woff'),
+         url('fontes/dinb000-webfont.ttf') format('truetype'),
+         url('fontes/dinb000-webfont.svg#DINBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* CSS Document */
+body{
+	font-family:'DINBoldRegular', Arial, sans-serif;
+	background-color:#000000;
+	width:100%;
+	margin:0;
+	overflow-x:hidden;
+	}
+
+body a{
+	text-decoration:none;}
+
+	
+#wrapper { 
+width:100%;
+background-color:#000;
+}
+
+#conteudo{
+    margin:0 auto;
+	position:relative;
+	width:960px;	
+	height:800px;
+}
+#fundo{
+    width:1200px;
+    height:800px;
+    position:absolute;
+    left: -100px;
+}
+
+#ans{
+	position: relative;
+    float: right;
+    top: -220px;
+    right: 100px;
+}
+
+#logoProjeto{
+	left: -7px;
+	top:50px;
+    position: absolute;
+	
+}
+
+img{
+ 	border:0;	 
+}
+
+#menuTopo{
+    height: 254px;
+    left: 180px;
+    position: absolute;
+    width: 580px;
+	}
+#menuTopo ul{
+	list-style: none outside none;
+    margin-top: 8.4em;
+    padding-left: 127px;
+    width: 580px;
+}
+#menuTopo ul li{
+	background: url("../imagens/base_botoes.png") repeat-x scroll 0 0 transparent;
+    border-right: 1px solid #C3225E;
+    color: white;
+    float: left;
+    font-size: 14px;
+    height: 22px;
+    padding: 7px 15px 0;
+}
+#menuTopo ul li.last{
+	border-right:none;
+}
+#menuTopo ul li.first{
+	background: url("../imagens/botaoOn.png") repeat-x scroll 0 0 transparent;
+    color: #777777;
+}
+
+#titulo{	
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 0.5;
+    margin-left: 28em;
+    margin-top: 15em;
+    position: absolute;
+    width: 350px;
+}
+
+#titulo h2{
+	color: #F0DB20;
+    font-size: 16px;
+    font-weight: normal;
+}
+#titulo img{
+    float: left;
+    padding-bottom: 50px;
+}
+
+#legenda{
+	color: white;
+text-indent: 50px;
+}
+#grafico{
+    background: url("../imagens/camarim/grafico.png") repeat-x scroll 0 0 transparent;
+    height: 250px;
+width: 270px;
+position: absolute;
+top: 17em;
+left: 24em;
+}
+#q1{
+    background: #f1da36; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1da36 0%, #fefcea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1da36), color-stop(100%,#fefcea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* IE10+ */
+background: linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+
+	height: 100%;
+width: 30px;
+float: left;
+margin-right: 15px;
+margin-left: 15px;
+position: relative;
+z-index:0;
+}
+#q1 img{
+    
+}
+#q2{
+    background: #f1da36; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1da36 0%, #fefcea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1da36), color-stop(100%,#fefcea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* IE10+ */
+background: linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+
+height: 100%;
+width: 30px;
+float: left;
+margin-right: 15px;
+position: relative;
+z-index:0;
+}
+#q3{
+    background: #f1da36; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1da36 0%, #fefcea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1da36), color-stop(100%,#fefcea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* IE10+ */
+background: linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+
+    height: 100%;
+width: 30px;
+float: left;
+margin-right: 15px;
+position: relative;
+z-index:0;
+}
+#q4{
+    background: #f1da36; /* Old browsers */
+background: -moz-linear-gradient(top,  #f1da36 0%, #fefcea 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1da36), color-stop(100%,#fefcea)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* IE10+ */
+background: linear-gradient(top,  #f1da36 0%,#fefcea 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1da36', endColorstr='#fefcea',GradientType=0 ); /* IE6-9 */
+
+    height: 100%;
+width: 30px;
+float: left;
+margin-right: 15px;
+position: relative;
+z-index:0;
+}
+#barras{
+    height: 66%;
+margin-top: 25px;
+margin-left: 30px;
+}
+#legenda p{
+    word-spacing: 23px;
+}
+
+#porta-retrato{
+    position: absolute;
+top: 26em;
+left: 2.5em;
+}
+
+.foto{
+    width: 123px;
+height: 190px;
+overflow: hidden;
+padding-left: 45px;
+-webkit-transform: rotate(-5deg);
+-moz-transform: rotate(-5deg);
+-o-transform: rotate(-5deg);
+margin-top: -220px;
+position: relative;
+z-index: 1;
+}
+.foto img{
+
+}
+.balao{
+position: relative;
+z-index: 0;
+}
+
+.balao:hover{
+background-color: transparent;
+z-index: 1000;
+}
+
+.balao span{ 
+position: absolute;
+background-color: none;
+padding: 0px;
+left: -2000px;
+visibility: hidden;
+color: white;
+text-decoration: none;
+}
+
+.balao span img{ 
+border-width: 0;
+padding: 0px;
+}
+
+.balao:hover span{ 
+visibility: visible;
+top: 0;
+left: 0px; 
+}
+.porcentagem{
+    width:80px;
+    height:59px;
+    margin-left:-170px;
+    text-indent:30px;
+    padding-top: 20px;
+    margin-top: 0px;
+    background: url("../imagens/camarim/balao-figurante.png") no-repeat transparent;
+    position: relative;
+    z-index:1000;
+    }
+.porcentagem2{
+    width:80px;
+    height:59px;
+    margin-left:-125px;
+    text-indent:30px;
+    padding-top: 20px;
+    margin-top: 0px;
+    background: url("../imagens/camarim/balao-figurante.png") no-repeat transparent;
+    position: relative;
+    z-index:1000;
+    }
+.porcentagem3{
+    width:80px;
+    height:59px;
+    margin-left:-80px;
+    text-indent:30px;
+    padding-top: 20px;
+    margin-top: 0px;
+    background: url("../imagens/camarim/balao-figurante.png") no-repeat transparent;
+    position: relative;
+    z-index:1000;
+    }
+.porcentagem4{
+    width:80px;
+    height:59px;
+    margin-left:-35px;
+    text-indent:30px;
+    padding-top: 20px;
+    margin-top: 0px;
+    background: url("../imagens/camarim/balao-figurante.png") no-repeat transparent;
+    position: relative;
+    z-index:1000;
+    }

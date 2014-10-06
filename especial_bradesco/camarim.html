@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+<link href="css/estilo.css" type="text/css" rel="stylesheet" />
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="css/iehacks.css" />
+<![endif]-->
+</head>
+
+
+<body>
+<div id="wrapper">
+	<div id="principal">
+   	  <div id="logoProjeto"><a href="index.html"><img src="imagens/logo_projeto.png" /></a></div>
+        <div id="menuTopo">
+        	<ul>
+            	<a href="campanha.html"><li>A Campanha</li></a>
+                <a href="premiacao.html"><li>Premiação</li></a>
+                <a href="camarim.html"><li class="first">Meu Camarim</li></a>
+                <a href="buscaDeCamarins.html"><li>Buscar Camarins</li></a>
+                <a href="ranking.html"><li class="last">Ranking</li></a>
+            </ul>
+        </div>
+        <div id="slogan2"><p>Muitos astros já passaram<br/>
+        	pela Calçada da Fama.<br />
+            <font color="gold">O próximo pode ser você.</font></p>
+        </div>
+        <div id="grafico">
+        	<div id="setaGrafico"></div><div id="linhaGrafico"></div>
+        </div>
+    	<div id="logoBradesco"><img src="imagens/logo_bradesco.png" /></div>
+    </div>
+    <!-- script para forçar o z-index no IE 7 -->
+<script type="text/javascript">
+	$(function() {
+    	var zIndexNumber = 1000;
+    	$('div').each(function() {
+			$(this).css('zIndex', zIndexNumber);
+			zIndexNumber -= 10;
+		});
+	});
+	</script>
+</div>
+</body>
+</html>

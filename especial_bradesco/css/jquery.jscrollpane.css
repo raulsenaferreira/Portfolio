@@ -1,0 +1,169 @@
+/*
+ * CSS Styles that are needed by jScrollPane for it to operate correctly.
+ *
+ * Include this stylesheet in your site or copy and paste the styles below into your stylesheet - jScrollPane
+ * may not operate correctly without them.
+ */
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+/*texto*/
+.jspPane p{
+	color: #777777;
+    font-family: arial;
+    font-size: 13px;
+	padding-left:20px;
+	}
+
+/*titulo*/
+.jspPane h1{
+	color: #6F6F6F;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+	}
+
+/*subtitulo*/
+.jspPane h2{
+	color: #6F6F6F;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+	padding-left:20px;
+	}
+
+/*lista de topicos*/
+.jspPane ul{
+	padding-left:40px;}
+.jspPane ul li{
+	color: #777777;
+    font-family: arial;
+	font-size:13px;
+	}
+
+.jspVerticalBar
+{
+	height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+	display: none;
+}
+
+.jspVerticalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+	display: none;
+}
+
+.jspTrack
+{
+	background: url("../imagens/scrollpane/fundoScroll.jpg") repeat-y scroll 15px 0 transparent;
+    position: relative;
+}
+
+.jspDrag
+{
+	background: url("../imagens/scrollpane/botaoScroll.png") no-repeat scroll 6px 0 transparent;
+    cursor: pointer;
+    left: 0;
+    position: relative;
+    top: 0;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow.jspArrowUp
+{
+	background: url("../imagens/scrollpane/buttons.png") no-repeat scroll -129px 46% transparent;
+    cursor: pointer;
+    display: block;
+    text-indent: -20000px;
+}
+.jspArrow.jspArrowDown
+{
+	background: url("../imagens/scrollpane/buttons.png") no-repeat scroll -44px 50% transparent;
+    cursor: pointer;
+    display: block;
+    text-indent: -20000px;
+}
+
+.jspArrow.jspArrowUp.jspDisabled
+{
+	cursor: default;
+	background:url("../imagens/scrollpane/buttons.png") no-repeat scroll -129px 46% transparent;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 28px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
